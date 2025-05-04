@@ -1,21 +1,27 @@
-## Interactive Web for Soccer Match Analysis
-This project is an interactive web application designed to analyze and visualize soccer match data. Built using Streamlit, it offers clear and dynamic dashboards for exploring match statistics, player performances, and team comparisons.
+# Interactive Web for Soccer Match Analysis
 
-### Features
-**Shot Visualizations:**
-- Visualize shot maps for individual players and teams.
-- Analyze key moments in the match through intuitive charts.
+## Descripción general del proyecto
 
-**Radar Charts:**
-- Compare player performances using customizable radar charts.
-- Highlight strengths and weaknesses across various metrics.
+Este proyecto es una aplicación web interactiva diseñada para el análisis y visualización de datos de partidos de fútbol. Utiliza **Streamlit** para generar paneles visuales dinámicos que permiten explorar estadísticas de partidos, rendimiento de jugadores y comparaciones entre equipos de forma intuitiva y accesible.
 
-**Match Recap Dashboard:**
-- Summarizes key match statistics.
-- Includes shot data, team performance stats, and Player of the Match.
+## Requisitos para ejecutarse
 
-### Technologies
-- Python
-- Streamlit
-- Web Scraping (SofaScore, Fotmob)
-- Data Visualization: Matplotlib
+Antes de ejecutar la aplicación, asegúrate de tener instalado:
+
+- Python 3.9 o superior
+- pip
+
+Además, se recomienda utilizar un entorno virtual (`venv` o `conda`).
+
+## Instalación
+
+1. Clona este repositorio:
+   ```bash
+   git clone git@github.com:3zavalam/Ing-Software.git
+   cd Ing-Software
+2. Crea un entorno virtual e instálalo:
+    python -m venv env
+    source env/bin/activate   # En Windows: env\Scripts\activate
+    pip install -r requirements.txt
+3. Ejecuta la aplicacion
+    streamlit run app.py
