@@ -13,14 +13,6 @@ Para ejecutar la aplicación localmente, asegúrate de tener instalado:
 
 Además, se recomienda utilizar un entorno virtual (por ejemplo, usando **venv** o **conda**) para mantener las dependencias del proyecto organizadas y evitar conflictos con otras aplicaciones Python que puedas tener instaladas.
 
-### Dependencias
-
-- **Streamlit**: Para la creación de aplicaciones web interactivas.
-- **pandas**: Para la manipulación de datos.
-- **matplotlib**: Para la visualización de gráficos y estadísticas.
-- **requests**: Para realizar solicitudes HTTP y obtener datos de APIs.
-- **BeautifulSoup**: Para la extracción de datos de páginas web mediante web scraping.
-
 ## Instalación
 
 
